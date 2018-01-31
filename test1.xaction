@@ -1,0 +1,1069 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action-sequence> 
+  <title/>
+  <version>1</version>
+  <logging-level>ERROR</logging-level>
+  <documentation> 
+    <author/>  
+    <description>Empty blank action sequence document</description>  
+    <help/>  
+    <result-type/>  
+    <icon/> 
+  </documentation>
+
+  <inputs> 
+    <user type="string"> 
+      <sources> 
+        <session>name</session> 
+      </sources> 
+    </user>  
+  </inputs>
+  
+  <outputs>
+    <html_output type="string">
+      <destinations>
+        <response>content</response>
+      </destinations>
+    </html_output> 
+  </outputs>
+
+  <resources/>
+  
+  <actions> 
+    <action-definition> 
+      <component-name>JavascriptRule</component-name>
+      <action-type>Get Some HTML</action-type>
+      <action-inputs> 
+        <user type="string"/> 
+      </action-inputs>
+
+      <action-outputs> 
+        <html_output type="string"/> 
+      </action-outputs>
+      <component-definition> 
+        <script><![CDATA[function getHTML(user){
+        if( user == '10000_mpadmin' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_mpadmin1' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_MarketAdmin' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_MarketAdmin1' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_MarketAdmin2' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_MarketAdmin3' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_MarketAdmin4' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_MarketAdmin5' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_MarketAdmin6' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_MarketAdmin7' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_MarketAdmin8' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_MarketAdmin9' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_MarketAdmin10' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+        if( user == '10000_SalesTeamManager_QLD F1' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }  
+		if( user == '10000_SalesTeamManager_NSW F1' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }  
+		if( user == '10000_SalesTeamManager_WA F1' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_SalesTeamManager_WA S1' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_SalesTeamManager_VIC F1' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_SalesTeamManager_VIC S4' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_SalesTeamManager_VIC S5' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_SalesTeamManager_VIC S7' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_SalesTeamManager_VIC S8' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_SalesTeamManager_WA S99' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_RegionUser_NSWAus' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }  
+		if( user == '10000_RegionUser_QLDAus' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }  
+		if( user == '10000_RegionUser_SAAus' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser_VICTAS' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser_WA' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser6' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser7' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser8' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser9' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser10' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser11' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser12' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser13' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser14' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser15' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser16' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser17' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser18' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser19' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser20' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser21' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser22' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser23' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser24' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser25' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser26' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser27' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser28' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser29' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser30' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser31' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser32' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser33' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser34' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser35' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser36' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser37' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser38' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser39' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser40' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser41' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser42' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser43' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser44' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser45' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser46' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser47' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser48' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser49' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_RegionUser50' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        } 
+		if( user == '10000_TerritoryUser_NSW70-F' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_TerritoryUser_QLD01-S' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard3.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_TerritoryUser_WA099' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard4.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_TerritoryUser_WA099-S' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard4.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_TerritoryUser_WA099-IND' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard4.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_TerritoryUser_WA S3' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard4.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_TerritoryUser_NSW F1' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard4.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_TerritoryUser_NSW S10' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard4.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_TerritoryUser_NSW S5' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard4.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_TerritoryUser_NSW41-S' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard4.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_TerritoryUser_NSW S99' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard4.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_MarketUserAustralia' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_MarketUserAustralia1' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_MarketUserAustralia2' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_MarketUserAustralia3' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_MarketUserAustralia4' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }if( user == '10000_MarketUserAustralia5' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_MarketUserAustralia6' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_MarketUserAustralia7' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_MarketUserAustralia8' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_MarketUserAustralia9' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_MarketUserAustralia10' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_haley.fitzpatrick' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_maximo.limsico' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_dean.kelly' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_stewart.bell' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_cykoh' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_tzoicas' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Jose.Molitor' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Christopher.Jasensky' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_elena.okhonko' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_sul-haq' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+			if( user == '10000_mplaska' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+			if( user == '10000_david.apaya' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+			if( user == '10000_agiussani' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+			if( user == '10000_Maciej.Czuchraniuk' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+			if( user == '10000_SalesTeamManager_QLDS4' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_SalesTeamManagerS7' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Ben.Tosney' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Chris.Davies' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Jodie.Nott' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Kishan.Rogers' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Matthew.Tonkin' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Scott.Strater' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Sean.Bedggood' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Shane.Fairweather' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Dale.Bradburn' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Cameron.Hooper' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		
+		if( user == '10000_Michael.Moraitis' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Eleanor.Howe' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Rohan.Sutherland' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Simon.Hicks' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Cameron.Holmes' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Milo.Dacosta' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Kelly.Willis' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Leigh.Lewis' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Michael.Higginbottom' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Mitchell.Cornish' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Paul.Burns' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Ben.Hancock' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Chad.Yule' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Engelbert.Misquitta' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Justin.Stitt' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Paul.Davies' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Peter.Doyle' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Raoul.Eaton' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Lisa.Perkins' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Dean.Leibbrandt' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Tania.Gray' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Bradley.Parr' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_David.Liddell' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Kevin.Busbridge' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Adam.Sorrell' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Naomi.Hinton' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Tim.Monnery' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Shaun.Mangan' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Belinda.Hawkes' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Jeremy.Dunn' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Brad.Carlson' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Tenille.Iori' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Rob.Pickering' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Michael.Castle' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Steve.Trimble' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Paul.Bennett' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Stuart.Jones' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+	if( user == '10000_Sean.Turnbull' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+if( user == '10000_Hamid.Khan' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+
+  if( user == '10000_Emy.TanMolina' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+  if( user == '10000_Chris.Jasensky' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Syed.Haider' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_Maciej.Czuchraniuk' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_eormushev' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+	if( user == '10000_vbrisaert' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3ABelgium%3ADashboards%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+if( user == '10000_jdeschuyteneer' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3ABelgium%3ADashboards%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+if( user == '10000_marco.heijstek' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3ABelgium%3ADashboards%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+if( user == '10000_anouchka.jongenelis' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3ABelgium%3ADashboards%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+if( user == '10000_anna.petsi' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3ABelgium%3ADashboards%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+if( user == '10000_jelle.deprins' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3ABelgium%3ADashboards%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+if( user == '10000_mheremans' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3ABelgium%3ADashboards%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+if( user == '10000_guillaume.regrain' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3ABelgium%3ADashboards%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }	
+if( user == '10000_mcourgeon' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3ABelgium%3ADashboards%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+if( user == '10000_romain.langlois' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3ABelgium%3ADashboards%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }	
+		if( user == '10000_cara.kuehner' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AUnited%20States%3ADashboards%3ADashboard%20for%20US.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }	
+		if( user == '10000_Sajjatul.Nobel' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AUnited%20States%3ADashboards%3ADashboard%20for%20US.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }	
+		if( user == '10000_Hamid.Khan' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AUnited%20States%3ADashboards%3ADashboard%20for%20US.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }	
+		if( user == '10000_Maria.Merkle' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AUnited%20States%3ADashboards%3ADashboard%20for%20US.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }	
+			if( user == '10000_grant.fern' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AUnited%20States%3ADashboards%3ADashboard%20for%20US.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+        if( user == '10000_phpuser' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3APhilippines%3ATradeEdge%3ADistributor%3ADistributor%20Fullfilment%20%26%20Financial%20Dashboard.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }	
+        if( user == '10000_Christopher.Issler' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AUnited%20States%3ADashboards%3ADashboard%20for%20US.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }		
+		
+		if( user == '10000_acel.scheffler' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3ABahrain%3ADashboards%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+        if( user == '10000_ankita' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3ABahrain%3ADashboards%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+        if( user == '10000_faiza.omer' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3ABahrain%3ADashboards%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+        if( user == '10000_glen.menezes' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3ABahrain%3ADashboards%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+        if( user == '10000_lina.selman' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3ABahrain%3ADashboards%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+        if( user == '10000_mustafa.khan' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3ABahrain%3ADashboards%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+        if( user == '10000_naeem' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3ABahrain%3ADashboards%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+        if( user == '10000_rahul.krishnan' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3ABahrain%3ADashboards%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+        if( user == '10000_Sajjad.Ahmed' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3ABahrain%3ADashboards%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+        if( user == '10000_sandeep.bhatt' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3ABahrain%3ADashboards%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+        if( user == '10000_smohammad' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3ABahrain%3ADashboards%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+        if( user == '10000_ssreedharan' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3ABahrain%3ADashboards%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+        if( user == '10000_amr.mahrous' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AKuwait%3ADashboards%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+        if( user == '10000_Mail' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AKuwait%3ADashboards%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+        if( user == '10000_Nadin.AlNatsheh' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AKuwait%3ADashboards%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+        if( user == '10000_ashfaque.shedbalkar' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AOman%3ADashboards%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+        if( user == '10000_jayakrishnanr' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AOman%3ADashboards%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+        if( user == '10000_siraj' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AOman%3ADashboards%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+        if( user == '10000_Abdullah.Almasbah' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3ASaudi%20Arabia%3ADashboards%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+        if( user == '10000_Ahmad.AlAnzi' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3ASaudi%20Arabia%3ADashboards%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+        if( user == '10000_Ahmed.Sadeed' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3ASaudi%20Arabia%3ADashboards%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+        if( user == '10000_Hani.AlShabib' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3ASaudi%20Arabia%3ADashboards%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+        if( user == '10000_m.tahir' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3ASaudi%20Arabia%3ADashboards%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+        if( user == '10000_Omar.Tarmom' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3ASaudi%20Arabia%3ADashboards%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+        if( user == '10000_Parayil.Harris' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3ASaudi%20Arabia%3ADashboards%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+		if( user == '10000_ph_mp_uat' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3APhilippines%3ATradeEdge%3ADistributor%3ADistributor%20Fullfilment%20%26%20Financial%20Dashboard.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+ if( user == '10000_eleroux' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3ABahrain%3ADashboards%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+if( user == '10000_Kaveh.Batha' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+ if( user == '10000_Kai.Hoehfeld' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+ if( user == '10000_Jon.Magid' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+
+		if( user == '10000_James.McHugh' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+if( user == '10000_rshamsudheen' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AKuwait%3ADashboards%3ADashboard5.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+        		
+
+if( user == '10000_Andre.Kaiser' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AGermany%3ADashboards%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+if( user == '10000_Anke.Muehring2' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AGermany%3ADashboards%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+if( user == '10000_Dora.Fekete' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AHungary%3ADashboards%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+if( user == '10000_dradzimirski' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3APoland%3ADashboards%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+if( user == '10000_bmacewicz.galkowska' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3APoland%3ADashboards%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+if( user == '10000_ealtenkamp' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AGermany%3ADashboards%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+if( user == '10000_ehuelsmann' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AGermany%3ADashboards%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+if( user == '10000_Eva.Rinner' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AAustria%3ADashboards%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+if( user == '10000_gbotka' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AHungary%3ADashboards%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+if( user == '10000_jember' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AHungary%3ADashboards%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+if( user == '10000_klapinska' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3APoland%3ADashboards%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+if( user == '10000_Manuel.Nogueira' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AGermany%3ADashboards%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+if( user == '10000_marc.droll' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3ASwitzerland%3ADashboards%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+if( user == '10000_mheld' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AGermany%3ADashboards%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+if( user == '10000_nackmann' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AGermany%3ADashboards%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+if( user == '10000_Stephanie.Graf' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3ASwitzerland%3ADashboards%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+if( user == '10000_stost' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AGermany%3ADashboards%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+if( user == '10000_ujust2' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AGermany%3ADashboards%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+if( user == '10000_tmarkwalder' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3ASwitzerland%3ADashboards%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+if( user == '10000_vjazdauskiene' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3ABaltics%3ADashboards%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+if( user == '10000_wfabiszewski' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3APoland%3ADashboards%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+if( user == '10000_wreiter' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AAustria%3ADashboards%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+if( user == '10000_SalesTeamManager_R101' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AUK%3ADashboards%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }		
+		
+if( user == '10000_Trainee1' )
+{
+var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AAustralia%3ADashboards%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>';
+}
+if( user == '10000_Trainee2' )
+{
+var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AAustralia%3ADashboards%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>';
+}
+if( user == '10000_Trainee3' )
+{
+var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AAustralia%3ADashboards%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>';
+}
+if( user == '10000_Trainee4' )
+{
+var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AAustralia%3ADashboards%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>';
+}
+if( user == '10000_Trainee5' )
+{
+var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AAustralia%3ADashboards%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>';
+}
+if( user == '10000_Trainee6' )
+{
+var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AAustralia%3ADashboards%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>';
+}
+if( user == '10000_Trainee7' )
+{
+var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AAustralia%3ADashboards%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>';
+}
+if( user == '10000_Trainee8' )
+{
+var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AAustralia%3ADashboards%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>';
+}
+if( user == '10000_Trainee9' )
+{
+var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AAustralia%3ADashboards%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>';
+}
+if( user == '10000_Trainee10' )
+{
+var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AAustralia%3ADashboards%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>';
+}
+if( user == '10000_seden' ) 
+{
+  var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AGermany%3ADashboards%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+}
+
+if( user == '10000_alexandre.audiau' ) 
+{
+  var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AGermany%3ADashboards%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+}
+if( user == '10000_Scott.Mierendorff' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+if( user == '10000_ABHRAJIT.KUNDU' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3AStartPage%3ADashboard2.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+if( user == '10000_Khurram.Khan' ) 
+        {
+          var htmlContent = '<HTML> <HEAD> <meta http-equiv="Refresh" content="0;url=https://tradeedge.infosys-platforms.com/mdlzcoe/mp1_4c/pentaho/api/repos/%3Apublic%3APakistan%3ADashboards%3ADashboard1.xdash/viewer"> </HEAD> <BODY> </BODY> </HTML>'; 
+        }
+return htmlContent;
+}
+getHTML(user);]]></script> 
+      </component-definition> 
+    </action-definition>
+ 
+  </actions> 
+</action-sequence>
+
+
